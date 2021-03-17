@@ -45,8 +45,6 @@ https://rhtweb.github.io/IT-Logger/
     OR npm run dev
   </li>
   <li>Now the project will open in your default browser  (It may take some time to load in 1st time)</li>
-  <li></li>
-
 </ol>
 
 
