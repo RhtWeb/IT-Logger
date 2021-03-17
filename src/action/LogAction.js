@@ -3,7 +3,7 @@ import { ADD_LOG, CLEAR_CURRENT, DELETE_LOG, GET_LOGS, LOGS_ERROR, SEARCH_LOGS, 
 //    return async (dispatch) => {
 //     setLoading();
 
-//     const res = await fetch('./logs');
+//     const res = await fetch('https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/logs');
 //     const data = await res.json();
 
 //     dispatch({
@@ -18,7 +18,7 @@ export const getLogs = () => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch('./logs');
+    const res = await fetch('https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/logs');
     const data = await res.json();
 
     dispatch({
@@ -38,7 +38,7 @@ export const getLogs = () => async (dispatch) => {
     try {
       setLoading();
   
-      const res = await fetch('./logs',{
+      const res = await fetch('https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/logs',{
         method: 'POST',
         body : JSON.stringify(log),
         headers : {
@@ -64,7 +64,7 @@ export const getLogs = () => async (dispatch) => {
       try {
         setLoading();
     
-        const res = await fetch(`./logs?q=${text}`);
+        const res = await fetch(`https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/logs?q=${text}`);
         const data = await res.json();
     
         dispatch({
@@ -85,7 +85,7 @@ export const getLogs = () => async (dispatch) => {
     try {
       setLoading();
   
-      await fetch(`./logs/${id}`, {
+      await fetch(`https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/logs/${id}`, {
         method : 'DELETE'
       })
   
@@ -105,7 +105,7 @@ export const getLogs = () => async (dispatch) => {
   export const updateLog = (log) => async dispatch => {
     try {
       setLoading()
-      const res = await fetch(`./logs/${log.id}`, {
+      const res = await fetch(`https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/logs/${log.id}`, {
         method : 'PUT',
         body : JSON.stringify(log),
         headers : {

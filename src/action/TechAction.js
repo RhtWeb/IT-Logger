@@ -3,7 +3,7 @@ import { ADD_TECH, DELETE_TECH, GET_TECHS, SET_LOADING, TECHS_ERROR } from './Ac
 export const getTechs = () => async dispatch => {
   try {
     setLoading();
-    const res = await fetch('./techs');
+    const res = await fetch('https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/techs');
     const data = await res.json();
 
     dispatch({
@@ -22,7 +22,7 @@ export const addTech = (tech) => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch('/techs', {
+    const res = await fetch('https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/techs', {
       method: 'POST',
       body : JSON.stringify(tech),
       headers : {
@@ -47,7 +47,7 @@ export const addTech = (tech) => async (dispatch) => {
 export const deleteTech = (id) => async dispatch => {
   try {
     setLoading();
-    await fetch(`./techs/${id}`, {
+    await fetch(`https://my-json-server.typicode.com/RhtWeb/DB-IT-Logger/techs/${id}`, {
       method: 'DELETE'
     })
 
