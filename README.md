@@ -5,9 +5,10 @@ https://rhtweb.github.io/IT-Logger/
 
 <br />
 <!-- ![IT-Logger](https://user-images.githubusercontent.com/55020650/111547497-46a99200-879f-11eb-9432-9dd543adaad1.jpg) -->
+<br />
 <table>
   <tr>
-   <td><img src="https://user-images.githubusercontent.com/55020650/111547497-46a99200-879f-11eb-9432-9dd543adaad1.jpg" width="700" height="500"></td>
+   <td><img src="https://user-images.githubusercontent.com/55020650/111547497-46a99200-879f-11eb-9432-9dd543adaad1.jpg" width="650" height="550"></td>
    <td>
     <h3>Contact Me</h3>
 <ul>
@@ -24,7 +25,10 @@ https://rhtweb.github.io/IT-Logger/
    </td>
  </tr>
  </table>
-
+ 
+ <br />
+ 
+<h4> Instructions for Running the file in your Local machine</h4>
 <ol>
   <li>
     Download the zip file from Green code button dropdown and then extract it on your desktop <br />
