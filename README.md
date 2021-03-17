@@ -8,7 +8,7 @@ https://rhtweb.github.io/IT-Logger/
 <br />
 <table>
   <tr>
-   <td><img src="https://user-images.githubusercontent.com/55020650/111547497-46a99200-879f-11eb-9432-9dd543adaad1.jpg" width="500" height="600"></td>
+   <td><img src="https://user-images.githubusercontent.com/55020650/111547497-46a99200-879f-11eb-9432-9dd543adaad1.jpg" width="500" height="500"></td>
    <td>
     <h3>Contact Me</h3>
 <ul>
