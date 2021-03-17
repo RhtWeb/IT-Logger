@@ -1,0 +1,71 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "You can Change \"proxy\": \"http://localhost:5000\" in package.json file and then type ---->   npm run dev",
+      "tech": "Rohit Singh",
+      "attention": true,
+      "date": "3/18/2021"
+    },
+    {
+      "id": 2,
+      "message": "Marketing Sales Team achieved target",
+      "tech": "Vishal Shukla",
+      "attention": false,
+      "date": "1/9/2021"
+    },
+    {
+      "id": 3,
+      "message": "Server 003 Started running",
+      "tech": "Rajnish Chaubey",
+      "attention": false,
+      "date": "1/9/2021"
+    },
+    {
+      "id": 4,
+      "message": "WorkStation 007  Woorking",
+      "tech": "Rohit Singh",
+      "attention": false,
+      "date": "1/9/2021"
+    },
+    {
+      "id": 5,
+      "message": "TEST TEST TEST TEST TEST !!!!!!",
+      "tech": "Rohit Singh",
+      "attention": true,
+      "date": "3/18/2021"
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Rohit",
+      "lastName": "Singh"
+    },
+    {
+      "id": 2,
+      "firstName": "Vishal",
+      "lastName": "Shukla"
+    },
+    {
+      "firstName": "Rajnish",
+      "lastName": "Chaubey",
+      "id": 3
+    },
+    {
+      "firstName": " Muhammad",
+      "lastName": "Wali",
+      "id": 4
+    },
+    {
+      "firstName": "Randhir",
+      "lastName": "Rai",
+      "id": 5
+    },
+    {
+      "firstName": "TEST",
+      "lastName": "TEST1",
+      "id": 6
+    }
+  ]
+}
